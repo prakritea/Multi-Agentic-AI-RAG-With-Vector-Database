@@ -1,0 +1,8 @@
+#!/bin/sh
+'''exec' "/Users/prakriti/Documents/Multi Agentic AI RAG With Vector Database/Multi-Agentic-AI-RAG-With-Vector-Database/myenv/bin/python3" "$0" "$@"
+' '''
+import sys
+from phi.cli.entrypoint import phi_cli
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(phi_cli())

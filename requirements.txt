@@ -1,0 +1,11 @@
+phidata
+pypdf
+duckduckgo-search
+fastapi
+uvicorn
+groq
+sqlalchemy
+pgvector
+psycopg2-binary
+pypdf
+loadenv
